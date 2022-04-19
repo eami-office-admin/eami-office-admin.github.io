@@ -1,0 +1,174 @@
+baseurl: "https://eami-office-admin.github.io"
+title: "3. EAMI Conference 2022"
+canonifyurls: true
+
+
+GoogleAnalytics: ""
+
+# Disable all privacy related services
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
+
+params:
+  # Conference info
+  Name: "3rd EAMI Conference in Denmark"
+  Description: "The Power of Music - moving towards the core of GIM"
+  Date: "21. - 25. Sept 2022"
+  Price: "" # If your event is free, just comment this line
+  Venue: "Trinity"
+  Address: "Gl. Færgevej 30"
+  Postalcode: "7000"
+  City:  "Fredericia"
+  State: "Denmark"
+  Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "AIzaSyC3BdedSFJBIW7OPNlEbqd6p188n0KB3VA"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - theme 
+    - speakers
+    - schedule
+    - location
+    - registration
+    - abstracts
+    - organisation
+    
+
+  # Titles which you can translate to other languages
+  Titles:
+    theme: "Conference Theme"
+    speakers: "Speakers"
+    organisation: "Organisation"
+    abstracts: "Abstracts"
+    location: "Venue and Transportation"
+    registration: "Registration and Accomodation"
+    schedule: "Schedule"
+    # cultural: "Cultural Program"
+    # venue: "Venue"
+    # contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  # CallToAction:
+    # text: "Register now!"
+    # link: "http://register.example.com"
+
+  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+ # ForkButton:
+  #  repository: "https://github.com/jweslley/hugo-conference/"
+  
+  # List of Sponsors
+  Sponsors:
+    - name: "Hugo"
+      logo: "/img/hugo.png"
+      url: "http://gohugo.io"
+
+  # List of Partners
+  Partners:
+    - name: "Trinity Konference og Hotel"
+      logo: "/img/trinity-logo.jpg"
+      url: "https://www.trinity.dk"
+    - name: "Hugo"
+      logo: "/img/hugo.jpg"
+      url: "https://gohugo.io"
+    - name: "Nemtilmeld"
+      logo: "/img/nemtilmeld_logo_graa.svg"
+      url: "https://nemtilmeld.dk"
+    - name: "Visit Denmark Fredericia"
+      logo: "/img/visit-denmark-logo.svg"
+      url: "https://www.visitlillebaelt.com/"
+      
+  # The entire schedule
+  Schedule:
+    - name: "Check-in / Breakfast"
+      time: "8h30"
+
+    - name: "Key-Note"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Title 1"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "9h00"
+
+    - name: "Speaker 2"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Title 2"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "10h00"
+
+    - name: "Lunch"
+      time: "12h00"
+
+    - name: ""
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "How to kill a elephant with one finger"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "13h00"
+
+    - name: "Speaker 2"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Title 3"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "14h00"
+
+    - name: "Coffee-break"
+      time: "15h00"
+
+    - name: "Speaker 4"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Title 4"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "16h00"
+
+    - name: ""
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Title 5"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "17h00"

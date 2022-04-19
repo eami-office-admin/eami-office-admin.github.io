@@ -1,0 +1,24 @@
+https://www.google.dk/maps/@55.5257812,9.7093336,325m/data=!3m1!1e3
+
+<iframe src="https://www.google.com/maps/embed?pb=" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+https://goo.gl/maps/fY8GL3zWGaRQzEqJ6
+
+GPG6+8J Fredericia
+
+Chromium:
+
+mellem:
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1415.2624942267876!2d9.7093336!3d55.5257812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c9716f481b5d5%3A0xad78ef2b0dfbc31d!2sTrinity+Hotel+%26+Konference+Center!5e1!3m2!1sen!2sdk!4v1560701537717!5m2!1sen!2sdk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+small:
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1415.2624942267876!2d9.7093336!3d55.5257812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c9716f481b5d5%3A0xad78ef2b0dfbc31d!2sTrinity+Hotel+%26+Konference+Center!5e1!3m2!1sen!2sdk!4v1560701537717!5m2!1sen!2sdk" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+800 x 400:
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1415.2624942267876!2d9.7093336!3d55.5257812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c9716f481b5d5%3A0xad78ef2b0dfbc31d!2sTrinity+Hotel+%26+Konference+Center!5e1!3m2!1sen!2sdk!4v1560701537717!5m2!1sen!2sdk" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+Bahn.de
+https://reiseauskunft.bahn.de/bin/query.exe/dn?revia=yes&existOptimizePrice=1&country=DEU&dbkanal_007=L01_S01_D001_KIN0001_qf-bahn-svb-kl2_lz03&start=1&protocol=https%3A&REQ0JourneyStopsS0A=1&S=M%C3%BCnchen+Hbf&REQ0JourneyStopsSID=A%3D1%40O%3DM%C3%BCnchen+Hbf%40X%3D11558338%40Y%3D48140228%40U%3D80%40L%3D008000261%40B%3D1%40p%3D1320260835%40&Z=Fredericia+st&REQ0JourneyStopsZID=&date=Mi%2C+23.09.20&time=16%3A00&timesel=arrive&returnDate=&returnTime=&returnTimesel=depart&optimize=0&auskunft_travelers_number=1&tariffTravellerType.1=E&tariffTravellerReductionClass.1=0&tariffClass=2&rtMode=DB-HYBRID&externRequest=yes&HWAI=JS%21js%3Dyes%21ajax%3Dyes%21
