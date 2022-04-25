@@ -1,5 +1,6 @@
 baseurl: "https://eami-office-admin.github.io"
-title: "3rd EAMI Conference 2022"
+# baseurl: ""
+title: "3. EAMI Conference 2022"
 canonifyurls: true
 
 
@@ -77,17 +78,20 @@ params:
 
   # List of Partners
   Partners:
+    - name: "Aalborg University"
+      logo: "/img/LOGO-AALB-UNI.jpg"
+      url: "https://www.en.aau.dk/"
     - name: "Trinity Konference og Hotel"
-      logo: "/img/trinity-logo.jpg"
+      logo: "/img/LOGO-TRINITY.jpg"
       url: "https://www.trinity.dk"
     - name: "Hugo"
-      logo: "/img/hugo.jpg"
+      logo: "/img/LOGO-hugo.jpg"
       url: "https://gohugo.io"
     - name: "Nemtilmeld"
-      logo: "/img/nemtilmeld_logo_graa.svg"
+      logo: "/img/LOGO-nemtilmeld.svg"
       url: "https://nemtilmeld.dk"
     - name: "Visit Denmark Fredericia"
-      logo: "/img/visit-denmark-logo.svg"
+      logo: "/img/LOGO-visitDK.svg"
       url: "https://www.visitlillebaelt.com/"
       
   # The entire schedule
@@ -172,6 +176,3 @@ params:
         title: "Title 5"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "17h00"
-
-
-

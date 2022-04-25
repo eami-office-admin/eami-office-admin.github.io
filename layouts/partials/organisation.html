@@ -8,13 +8,23 @@
 <p><strong>Head of scientific committee:</strong> Leslie Bunt (GB)<br><strong>Members:</strong> Lars Ole Bonde (DK), Gro Trondalen (NO), Christa Steingruber (CH), Barbara Zanchi (IT), Svein Fuglestad (NO)   </p>
 
 <h5 id="organiser--contact-person">Organiser / Contact Person</h5>
-<p><strong>> Bolette Beck:</strong> <a href="mailto:&#98;&#111;&#x6c;&#x65;&#116;&#x74;&#101;&#x2e;&#100;&#46;&#x62;&#101;&#x63;&#107;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#98;&#111;&#x6c;&#x65;&#116;&#x74;&#101;&#x2e;&#100;&#46;&#x62;&#101;&#x63;&#107;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a> or <a href="mailto:&#x62;&#111;&#x6c;&#x65;&#x74;&#x74;&#x65;&#64;&#105;&#x6b;&#x70;&#x2e;&#97;&#97;&#x75;&#46;&#100;&#x6b;">&#x62;&#111;&#x6c;&#x65;&#x74;&#x74;&#x65;&#64;&#105;&#x6b;&#x70;&#x2e;&#97;&#97;&#x75;&#46;&#100;&#x6b;</a>, mobile phone +4527283692  </p>
+<p><strong>> Bolette Beck:</strong> <a href="mailto:&#98;&#111;&#x6c;&#x65;&#116;&#x74;&#101;&#x2e;&#100;&#46;&#x62;&#101;&#x63;&#107;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#98;&#111;&#x6c;&#x65;&#116;&#x74;&#101;&#x2e;&#100;&#46;&#x62;&#101;&#x63;&#107;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a> or <a href="mailto:&#x62;&#111;&#x6c;&#x65;&#x74;&#x74;&#x65;&#64;&#105;&#x6b;&#x70;&#x2e;&#97;&#97;&#x75;&#46;&#100;&#x6b;">&#x62;&#111;&#x6c;&#x65;&#x74;&#x74;&#x65;&#64;&#105;&#x6b;&#x70;&#x2e;&#97;&#97;&#x75;&#46;&#100;&#x6b;</a>, mobile phone +4527283692.  </p>
 <h5 id="sponsors">Sponsors and Partners</h5>
-<img src="img/hugo-LOGO.jpg" alt="HUGO" width=150 height=auto> <img src="img/TRINITY_LOGO.jpg" alt="Trinity" width=150 height=auto> <img src="img/visitDK_LOGO.svg" alt="visit Denmark" width=150 height=auto> <img src="img/nemtilmeld_LOGO.svg" alt="nemtilmeld" width=150 height=auto></p>
+
+<p><strong>Thank you in particular to Aalborg University – Department for Communication and Psychology for support.</strong>
 <br>
-<p><strong>Thank you to Aalborg University – Department for Communication and Psychology for support.</strong>
-<br>
-<img src="img/AALB-UNI_LOGO.jpg" alt="Aalborg University" width=150 height=auto></p>
+
+<ul class="partners-list">
+{{ range $partner := .partners }}
+  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{ .url }}" class="partner-logo partner-link" itemprop="url" target="_blank">
+      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+    </a>
+  </li>
+{{ end }}
+</ul>
+
+
 
 
 
