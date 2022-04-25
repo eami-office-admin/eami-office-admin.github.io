@@ -40,18 +40,18 @@ params:
   Sections:
     - theme 
     - speakers
+    - abstracts
     - schedule
     - location
     - registration
-    - abstracts
     - organisation
     
 
   # Titles which you can translate to other languages
   Titles:
-    theme: "Conference Theme"
-    speakers: "Speakers"
-    organisation: "Organisation"
+    theme: "Theme"
+    speakers: "Keynotes"
+    organisation: "Organization"
     abstracts: "Abstracts"
     location: "Venue and Transportation"
     registration: "Registration and Accomodation"
