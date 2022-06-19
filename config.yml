@@ -1,4 +1,4 @@
-baseurl: "https://gim2022.music-and-imagery.eu"
+baseurl: "gim2022.music-and-imagery.eu"
 # baseurl: ""
 title: "3. EAMI Conference 2022"
 canonifyurls: true
@@ -32,7 +32,7 @@ params:
   Postalcode: "7000"
   City:  "Fredericia"
   State: "Denmark"
-  Images: ["/img/badge.jpg"]
+  Images: ["img/"]
   GoogleMapsKey: "AIzaSyC3BdedSFJBIW7OPNlEbqd6p188n0KB3VA"
 
   # Active sections on the website to deactivate comment out with '#'
@@ -73,25 +73,25 @@ params:
   # List of Sponsors
   Sponsors:
     - name: "Hugo"
-      logo: "/img/hugo.png"
+      logo: "static/img/hugo.png"
       url: "http://gohugo.io"
 
   # List of Partners
   Partners:
     - name: "Aalborg University"
-      logo: "/img/LOGO-AALB-UNI.jpg"
+      logo: "static/img/LOGO-AALB-UNI.jpg"
       url: "https://www.en.aau.dk/"
     - name: "Trinity Konference og Hotel"
-      logo: "/img/LOGO-TRINITY.jpg"
+      logo: "static/img/LOGO-TRINITY.jpg"
       url: "https://www.trinity.dk"
     - name: "Hugo"
-      logo: "/img/LOGO-hugo.jpg"
+      logo: "static/img/LOGO-hugo.jpg"
       url: "https://gohugo.io"
     - name: "Nemtilmeld"
-      logo: "/img/LOGO-nemtilmeld.svg"
+      logo: "static/img/LOGO-nemtilmeld.svg"
       url: "https://nemtilmeld.dk"
     - name: "Visit Denmark Fredericia"
-      logo: "/img/LOGO-visitDK.svg"
+      logo: "static/img/LOGO-visitDK.svg"
       url: "https://www.visitlillebaelt.com/"
       
   # The entire schedule
