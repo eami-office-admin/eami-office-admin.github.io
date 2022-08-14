@@ -911,3 +911,20 @@ nav {
     display: none;
   }
 }
+
+
+a.download-button {
+	background:#df7d00;
+	color:white;
+	font-weight:bold;
+	font-size:4.5rem;
+	margin:1rem auto;
+	padding:3rem;
+	display:inline-block;
+	border-radius:1rem;
+}
+
+a.download-button:hover {
+	color:black;
+	text-decoration:none;
+}
